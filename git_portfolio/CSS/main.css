@@ -8,3 +8,19 @@ body {
     background-image: url("../Resources/22135.jpg");
     color: white;
 }
+
+
+#LinkedinLogo {
+    height: 5%;
+    width: 5%;
+}
+
+#GithubLogo {
+    height: 5%;
+    width: 5%;
+}
+
+.langlogo {
+    height: 3%;
+    width: 3%;
+}
