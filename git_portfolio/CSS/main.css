@@ -1,12 +1,15 @@
 
 header {
-    background-image: url("../Resources/22135.jpg");
     color: white;
 }
 
 body {
-    background-image: url("../Resources/22135.jpg");
     color: white;
+    background-image: url("../Resources/wallpaperflare.com_wallpaper\ \(1\).jpg");
+}
+
+a {
+    color: rgb(103, 152, 207);
 }
 
 
