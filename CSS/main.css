@@ -38,3 +38,23 @@ a {
     height: 5%;
     width: 5%;
 }
+
+.langlogolist {
+    height: 5%;
+    width: 5%;
+}
+
+#languagesusedlist {
+    list-style-image: url("../Resources/rocket_launch_FILL0_wght400_GRAD0_opsz24.png");
+}
+
+.material-symbols-outlined {
+    padding-right: 1rem;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
