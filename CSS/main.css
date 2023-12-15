@@ -13,6 +13,10 @@ a {
     color: rgb(103, 152, 207);
 }
 
+p {
+    margin: 0.5rem 0rem;
+}
+
 
 #LinkedinLogo {
     height: 5%;
@@ -22,6 +26,7 @@ a {
 #GithubLogo {
     height: 5%;
     width: 5%;
+    padding-top: 1rem;
 }
 
 #comptialogo{
@@ -42,10 +47,15 @@ a {
 .langlogolist {
     height: 5%;
     width: 5%;
+    padding-left: 1rem;
 }
 
 #languagesusedlist {
     list-style-image: url("../Resources/rocket_launch_FILL0_wght400_GRAD0_opsz24.png");
+}
+
+#languagesusedlist li {
+    margin-top: 2rem;
 }
 
 .material-symbols-outlined {
@@ -56,5 +66,16 @@ a {
   'GRAD' 0,
   'opsz' 24
 }
+
+#contactsdiv{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.contact {
+    padding-bottom: 1rem;
+}
+
+
 
 
