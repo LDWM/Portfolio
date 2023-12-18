@@ -48,6 +48,9 @@ p {
     height: 5%;
     width: 5%;
     padding-left: 1rem;
+    position: absolute;
+    left: 10rem;
+
 }
 
 #languagesusedlist {
@@ -56,6 +59,7 @@ p {
 
 #languagesusedlist li {
     margin-top: 2rem;
+    line-height: 4rem;;
 }
 
 .material-symbols-outlined {
