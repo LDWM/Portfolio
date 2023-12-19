@@ -1,8 +1,10 @@
 $(document).ready(function(){
     $('#name').toggle("drop", {direction: "up"}, 2000);
+    $('.headings').effect("slide", 2000)
     $( "#name" ).fadeOut( "slide" );
     $( "#name" ).fadeIn( "slide" );
     $( "#name" ).effect( "bounce", "slow");
+
 });
 
 
@@ -17,6 +19,7 @@ $( document ).click(function() {
 $( document ).click(function() {
     $( "#name" ).effect( "bounce", "slow");
 });
+
 
 
 /*
