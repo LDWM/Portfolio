@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#name').toggle("drop", {direction: "up"}, 2000);
-    $('.headings').effect("slide", 2000)
+    $('.headings').effect("slide", 1500)
     $( "#name" ).fadeOut( "slide" );
     $( "#name" ).fadeIn( "slide" );
     $( "#name" ).effect( "bounce", "slow");
@@ -8,18 +8,21 @@ $(document).ready(function(){
 });
 
 
-$( document ).click(function() {
+$("#name").click(function() {
     $( "#name" ).fadeOut( "slide" );
 });
 
-$( document ).click(function() {
+$("#name").click(function() {
     $( "#name" ).fadeIn( "slide" );
 });
 
-$( document ).click(function() {
+$("#name").click(function() {
     $( "#name" ).effect( "bounce", "slow");
 });
 
+$("#moreCoursesBtn").click(function() {
+    $("#moreCodecademycourses").toggle();
+})
 
 
 /*

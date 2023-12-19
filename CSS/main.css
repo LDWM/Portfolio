@@ -84,4 +84,12 @@ p {
     display: none;
 }
 
+#moreCodecademycourses {
+    display: none;
+}
+
+#moreCoursesBtn {
+    margin-left: 40px;
+}
+
 
