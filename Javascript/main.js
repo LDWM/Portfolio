@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('#name').toggle("drop", {direction: "up"}, 2000);
-    $('.headings').effect("slide", 1500)
+    $(".mainList").fadeIn(1000);
+    $('.headings').effect("slide", 1500);
     $( "#name" ).fadeOut( "slide" );
     $( "#name" ).fadeIn( "slide" );
     $( "#name" ).effect( "bounce", "slow");
@@ -23,6 +24,7 @@ $("#name").click(function() {
 $("#moreCoursesBtn").click(function() {
     $("#moreCodecademycourses").toggle();
 })
+
 
 
 /*
