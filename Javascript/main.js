@@ -21,11 +21,41 @@ $("#name").click(function() {
     $( "#name" ).effect( "bounce", "slow");
 });
 
+
 $("#moreCoursesBtn").click(function() {
     $("#moreCodecademycourses").toggle();
+
+    let showbtntext = document.getElementByID("#moreCoursesBtn").innerHTML;
+
+    if (showbtntext == "Show More") {
+        document.getElementByID("moreCoursesBtn").innerHTML = "Show Less";
+    } else {
+        document.getElementByID("moreCoursesBtn").innerHTML = "Show More";
+    }
 })
 
 
+var button = document.getElementById('moreCoursesBtn');
+button.addEventListener("click", tableClickHandler);
+
+function tableClickHandler(event) {
+    var readed = event.target.closest('.togglebtn');
+    if (readed) {
+      toggleText(readed);
+    }
+}
+
+
+// Toggle text when clicked.
+function toggleText(button) {
+    if (button.innerHTML == "Show More") {
+        button.innerHTML = "Show Less";
+    } else if (button.innerHTML == "Show Less") {
+        button.innerHTML = "Show More";
+    } else {
+        null
+    }
+}
 
 /*
 let nametag = document.getElementById ('name');
