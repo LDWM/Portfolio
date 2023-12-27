@@ -96,4 +96,22 @@ p {
     display: none;
 }
 
+@media only screen and (max-width: 650px) {
+    .langlogo
+    {
+    height: 10%;
+    width: 10%;
+    }
 
+   #comptialogo
+    {
+    height: 12%;
+    width: 12%; 
+    }
+    
+    #RhapsodyLogo 
+    {
+    height: 12%;
+    width: 12%; 
+    }
+}
