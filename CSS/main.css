@@ -123,4 +123,15 @@ p {
         position: absolute;
         left: 10rem;
     }
+
+        #LinkedinLogo {
+        height: auto;
+        width: 10%;
+    }
+    
+    #GithubLogo {
+        height: auto;
+        width: 10%;
+        padding-top: 1rem;
+    }
 }
