@@ -117,7 +117,7 @@ p {
 
     .langlogolist
     {
-        height: 10%;
+        height: auto;
         width: 10%;
         padding-left: 1rem;
         position: absolute;
