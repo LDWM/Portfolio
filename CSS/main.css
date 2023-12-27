@@ -114,4 +114,13 @@ p {
     height: 12%;
     width: 12%; 
     }
+
+    .langlogolist
+    {
+        height: 10%;
+        width: 10%;
+        padding-left: 1rem;
+        position: absolute;
+        left: 10rem;
+    }
 }
